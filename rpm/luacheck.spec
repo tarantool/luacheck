@@ -15,6 +15,7 @@ BuildArch: noarch
 
 BuildRequires: tarantool >= 1.9.0.0
 Requires: tarantool >= 1.9.0.0
+Provides: luacheck = %{version}
 
 %description
 Luacheck is a command-line tool for linting and static analysis of Lua code.
