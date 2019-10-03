@@ -1,0 +1,19 @@
+Source: tarantool-luacheck
+Priority: optional
+Section: database
+Maintainer: Yaroslav Dynnikov <yaroslav.dynnikov@tarantool.org>
+Build-Depends: debhelper (>= 9), tarantool (>= 1.9.0)
+Standards-Version: 3.9.8
+Homepage: https://github.com/tarantool/luacheck
+Vcs-Git: git://github.com/tarantool/luacheck.git
+Vcs-Browser: https://github.com/tarantool/luacheck
+
+Package: tarantool-luacheck
+Architecture: all
+Depends: tarantool (>= 1.9.0), ${shlibs:Depends}, ${misc:Depends}
+Pre-Depends: ${misc:Pre-Depends}
+Description: Command-line tool for linting and static analysis of Lua code
+ Luacheck is a command-line tool for linting and static analysis of Lua code.
+ It is able to spot usage of undefined global variables, unused local variables
+ and a few other typical problems within Lua programs.
+

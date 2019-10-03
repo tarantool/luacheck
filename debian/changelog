@@ -1,0 +1,5 @@
+tarantool-luacheck (0.22.0-1) unstable; urgency=medium
+
+  * Initial release.
+
+ -- Yaroslav Dynnikov <yaroslav.dynnikov@tarantool.org>  Thu, 3 Oct 2019 13:00:00 +0300
