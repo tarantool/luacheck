@@ -1,2 +1,2 @@
-#!/usr/bin/env lua
+#!/usr/bin/env tarantool
 require "luacheck.main"
