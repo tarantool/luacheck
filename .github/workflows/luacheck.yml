@@ -37,6 +37,7 @@ jobs:
     - name: Setup dependencies
       run: |
         luarocks install --deps-only luacheck-scm-1.rockspec
+        luarocks install lfs
     - name: Build ‘luacheck’ (bootstrap)
       run: luarocks make
     - name: Run ‘luacheck’ (dogfood)
