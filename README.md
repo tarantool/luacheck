@@ -2,9 +2,10 @@
 
 [![Join the chat at https://gitter.im/luacheck/Lobby](https://badges.gitter.im/luacheck/Lobby.svg)](https://gitter.im/luacheck/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-[![Build Status](https://travis-ci.org/tarantool/luacheck.png?branch=master)](https://travis-ci.org/tarantool/luacheck)
+[![Luacheck](https://github.com/tarantool/luacheck/actions/workflows/luacheck.yml/badge.svg)](https://github.com/tarantool/luacheck/actions/workflows/luacheck.yml)
+[![Busted](https://github.com/tarantool/luacheck/actions/workflows/busted.yml/badge.svg)](https://github.com/tarantool/luacheck/actions/workflows/busted.yml)
 <!-- [![Windows build status](https://ci.appveyor.com/api/projects/status/pgox2vvelagw1fux/branch/master?svg=true&passingText=Windows%20build%20passing&failingText=Windows%20build%20failing)](https://ci.appveyor.com/project/tarantool/luacheck/branch/master) -->
-[![codecov](https://codecov.io/gh/tarantool/luacheck/branch/master/graph/badge.svg)](https://codecov.io/gh/tarantool/luacheck)
+[![Coverage Status](https://coveralls.io/repos/github/tarantool/luacheck/badge.svg?branch=upstream)](https://coveralls.io/github/tarantool/luacheck?branch=upstream)
 [![License](https://img.shields.io/badge/License-MIT-brightgreen.svg)](LICENSE)
 
 ## Contents
