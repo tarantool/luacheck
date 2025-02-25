@@ -16,7 +16,10 @@ local box_defs = standards.def_fields(
    'on_rollback',
    'rollback',
    'rollback_to_savepoint',
-   'savepoint'
+   'savepoint',
+   'broadcast',
+   'watch',
+   'watch_once'
 )
 
 box_defs.fields.backup = standards.def_fields('start', 'stop')
@@ -54,6 +57,8 @@ local box_table_fields = {
    'sequence',
    'stat',
    'priv',
+   'iproto',
+   'read_view',
 }
 local any_table = {other_fields = true}
 for _, x in pairs(box_table_fields) do
